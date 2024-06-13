@@ -40,7 +40,7 @@ execute_command_button = st.sidebar.button("Execute Command")
 # Widgets for custom search
 st.sidebar.header("Custom Search Options")
 selected_columns = st.sidebar.multiselect("Select Columns for Visualization:", ["SALARY", "AGE", "WORKING_HOURS", "BONUS"])
-date_range = st.sidebar.date_input("Select Date Range:", [pd.to_datetime("2022-01-01"), pd.to_datetime("2022-12-31")])
+date_range = st.sidebar.date_input("Select Date Range:", [pd.to_datetime("2024-01-01"), pd.to_datetime("2024-12-31")])
 
 st.sidebar.header("Download CSV")
 
